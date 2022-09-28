@@ -1,0 +1,343 @@
+:root {
+  /* color */
+  --primaryColor: #002939;
+  --secondaryColor: #ddc190;
+
+  /* font */
+  --mainFont: "Open Sans", sans-serif;
+  --headingFont: "Merriweather", serif;
+}
+
+* {
+  box-sizing: border-box !important;
+  text-decoration: none !important;
+}
+body {
+  font-family: var(--mainFont);
+}
+
+.heading {
+  font-family: var(--headingFont);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.subheading {
+  font-weight: 300;
+}
+
+.section-margin {
+  margin-top: 100px;
+}
+
+/* navbar */
+.navbar-brand {
+  font-family: var(--headingFont);
+  font-weight: 900;
+}
+
+.navbar {
+  background-color: var(--primaryColor) !important;
+}
+
+.navbar-brand span {
+  color: var(--secondaryColor);
+}
+
+.nav-link {
+  font-family: var(--headingFont);
+}
+
+.nav-link.active {
+  font-weight: 700;
+  color: var(--secondaryColor) !important;
+}
+
+.icons-home i {
+  font-size: 1.8rem;
+  color: var(--secondaryColor);
+}
+
+/* home */
+
+.home {
+  background-color: var(--primaryColor);
+  height: 650px;
+  padding-top: 8rem;
+}
+
+.home .heading {
+  color: var(--secondaryColor);
+}
+
+.btn-home .btn-buy {
+  background-color: var(--secondaryColor);
+  font-family: var(--headingFont);
+  font-weight: 700;
+}
+
+.btn-home .btn-buy:hover {
+  background-color: #ccad79;
+}
+
+.btn-home .btn-learn {
+  border: 2px solid var(--secondaryColor);
+  color: var(--secondaryColor);
+  font-family: var(--headingFont);
+  font-weight: 700;
+}
+
+.btn-home .btn-learn:hover {
+  border: 2px solid var #bb9b63;
+  background-color: #ccad79;
+}
+
+/* akhir home */
+
+.card-service {
+  background-color: var(--primaryColor);
+  color: #fff;
+}
+
+.card-service .btn-service {
+  border: 2px solid var(--secondaryColor);
+  color: var(--secondaryColor);
+  font-family: var(--headingFont);
+  font-weight: 700;
+}
+
+.card-service .btn-service:hover {
+  background-color: var(--secondaryColor);
+  color: var(--primaryColor);
+}
+
+.banner-1 .container {
+  background-color: var(--primaryColor);
+  overflow: hidden;
+}
+
+.banner-1 {
+  height: 400px;
+}
+
+.banner-1 .btn-banner1 {
+  background-color: var(--secondaryColor);
+}
+
+.banner-1 img {
+  bottom: -60%;
+}
+/* service */
+
+/* product */
+.product .populer h3 {
+  font-size: 22px;
+}
+
+.populer i {
+  font-size: 2.5rem;
+  color: var(--secondaryColor);
+}
+
+.product-populer .card-product {
+  width: 280px;
+}
+.product-populer .img-box {
+  border: 2px solid var(--primaryColor);
+  height: 261px;
+}
+
+.detail-product .label {
+  background-color: var(--primaryColor);
+  width: 80px;
+  color: #fff;
+}
+
+.detail-product a {
+  border: 2px solid var(--secondaryColor);
+  color: var(--secondaryColor);
+  font-size: 1.5rem;
+}
+
+.detail-product a:hover {
+  background-color: var(--secondaryColor);
+  color: var(--primaryColor);
+}
+
+.new-product .img-box {
+  background-color: var(--primaryColor);
+}
+
+.new-product .card-title {
+  font-family: var(--headingFont);
+  font-weight: 700;
+}
+
+.price-wrapper i {
+  font-size: 1.4rem;
+}
+
+.price-wrapper a {
+  border: 2px solid var(--secondaryColor);
+  color: var(--secondaryColor);
+}
+
+.price-wrapper a:hover {
+  background-color: var(--secondaryColor) !important;
+  color: var(--primaryColor);
+}
+
+.btn-load a {
+  background-color: var(--secondaryColor);
+  color: #fff;
+}
+
+.new-card {
+  display: none;
+}
+
+/* banner 2 */
+.banner-2 .banner-wrapper {
+  background-color: var(--primaryColor);
+}
+
+.banner-2 .price {
+  width: 160px;
+}
+
+.banner-2 .price p {
+  font-size: 22px;
+}
+
+.banner-2 .price .normal {
+  text-decoration: line-through !important;
+}
+
+.banner-2 .price .promo {
+  font-family: var(--headingFont);
+  font-weight: 700;
+  color: var(--secondaryColor);
+}
+/* akhir product */
+
+/* blog */
+.blog .card-title {
+  font-family: var(--headingFont);
+  font-weight: 700;
+}
+
+.blog .btn {
+  background-color: var(--secondaryColor);
+}
+/* akhir blog */
+
+/* footer */
+.footer {
+  background-color: var(--primaryColor);
+  border-radius: 20px 20px 0px 0px;
+  margin-top: 100px !important;
+}
+
+.footer .footer-brand {
+  color: #fff;
+  font-family: var(--headingFont);
+  font-weight: 900;
+}
+
+.footer .footer-brand span {
+  color: var(--secondaryColor);
+}
+
+.col-footer a {
+  color: #fff;
+}
+
+.icon-footer i {
+  font-size: 1.8rem;
+  color: var(--secondaryColor);
+}
+
+.col-footer1 h3,
+.col-footer2 h3,
+.col-footer3 h3,
+.col-footer4 h3 {
+  color: #fff;
+  font-family: var(--headingFont);
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.col-footer1 ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.col-footer1 a,
+.col-footer2 a,
+.col-footer3 a {
+  color: #fff;
+}
+/* akhir footer */
+/* contact */
+form .btn {
+  background-color: var(--secondaryColor);
+}
+/* akhircontact */
+
+/* akhir service */
+
+@media screen and (min-width: 768px) {
+  .home {
+    padding-top: 12rem;
+  }
+  .home .heading {
+    font-size: 36px;
+  }
+  .banner-1 img {
+    width: 60%;
+  }
+  .populer i {
+    font-size: 2.9rem;
+  }
+  .blog {
+    margin-top: 150px !important;
+  }
+  .banner-2 {
+    margin-top: 150px !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .section-margin {
+    margin-top: 200px !important;
+  }
+  .home .content-left {
+    padding-bottom: 40px;
+  }
+  .home .heading {
+    font-size: 46px;
+  }
+  .home .sub-heading {
+    font-size: 20px;
+  }
+  .home img {
+    right: 0;
+    bottom: -40%;
+  }
+  .home .img2 {
+    right: 0;
+    top: 0;
+  }
+  .home .container .home .row {
+    height: 100%;
+  }
+  .banner-1 img {
+    top: 100%;
+  }
+  .banner-1 {
+    height: 200px;
+  }
+  .banner-1 .container {
+    padding: 0 4rem;
+  }
+}
